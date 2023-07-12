@@ -1,5 +1,5 @@
-import {BiDislike, BiLike} from 'react-icons/bi'
-import {BiListPlus} from 'react-icons/bi'
+import {BiDislike, BiLike, BiListPlus} from 'react-icons/bi'
+
 import ReactPlayer from 'react-player'
 import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 import {
@@ -84,7 +84,7 @@ const PlayVideoView = props => {
               <LikesButtons>
                 <button
                   style={{
-                  display: 'flex',
+                    display: 'flex',
                     flexDirection: 'row',
                     alignItems: 'center',
                     marginRight: 12,

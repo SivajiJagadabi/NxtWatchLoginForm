@@ -61,7 +61,7 @@ const SavedVideos = () => (
                   style={{
                     marginTop: 15,
                     marginBottom: 3,
-                    fontSize: 14,
+
                     color: `${textColor}`,
                     fontSize: 25,
                   }}
@@ -72,7 +72,7 @@ const SavedVideos = () => (
                   style={{
                     marginTop: 8,
                     marginBottom: 3,
-                    fontSize: 14,
+
                     color: 'gray',
                     fontSize: 18,
                   }}

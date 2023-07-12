@@ -49,7 +49,7 @@ class VideoDetailView extends Component {
 
     const {match} = this.props
     const {params} = match
-    let {id} = params
+    const {id} = params
     console.log(id)
 
     const apiUrl = `https://apis.ccbp.in/videos/${id}`
@@ -102,13 +102,11 @@ class VideoDetailView extends Component {
     )
   }
 
-  renderLoadingView = () => {
-    return (
-      <LoaderContainer>
-        <Rings type="ThreeDots" color="#0b69ff" height="50" width="50" />
-      </LoaderContainer>
-    )
-  }
+  renderLoadingView = () => (
+    <LoaderContainer>
+      <Rings type="ThreeDots" color="#0b69ff" height="50" width="50" />
+    </LoaderContainer>
+  )
 
   renderVideoDetailsView = () => {
     const {apiStatus} = this.state
