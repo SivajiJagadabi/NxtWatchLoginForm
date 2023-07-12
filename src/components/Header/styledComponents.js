@@ -7,11 +7,11 @@ export const HeaderContainer = styled.div`
   align-items: center;
   height: 80px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
   position: fixed;
   background-color: ${props => props.backgrodunColor};
   top: -1px;
-  width: 98%;
+  width: 100%;
 `
 
 export const ButtonsContainer = styled.div`
@@ -50,7 +50,7 @@ export const Logout = styled.button`
   font-weight: 700;
   margin-left: 12px;
   cursor: pointer;
-  margin-right: 6px;
+  margin-left: 25px;
 `
 
 export const smallLogout = styled.div`

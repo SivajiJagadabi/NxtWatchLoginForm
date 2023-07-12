@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import {AiFillHome} from 'react-icons/ai'
 import {HiFire} from 'react-icons/hi'
 import {IoLogoGameControllerB} from 'react-icons/io'

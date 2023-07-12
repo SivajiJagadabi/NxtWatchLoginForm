@@ -1,16 +1,4 @@
-// import Header from './components/Header'
-// import Home from './components/Home'
-// import './App.css';
-
-// const App=()=>{
-//   return(
-//     <Home/>
-//   )
-// }
-// export default App;
-
 import {Component} from 'react'
-
 import {Route, Switch, Redirect, Routes} from 'react-router-dom'
 import './App.css'
 import VideoDetailView from './components/VideoDetailView'
@@ -64,23 +52,16 @@ class App extends Component {
           changeTab: this.changeTab,
         }}
       >
-        {/* <Switch>
-                    <Route exact path='/login' component={<LoginForm/>} />
-                    <Route exact path='/' component={<Home/>} />
-                    <Route exact path='/trending' component={<Trending/>} />
-                    <Redirect to="not-found" />
-                </Switch> */}
-
         <Switch>
-          <Route path="/login" element={<LoginForm />} />
+          <Route path="/login" component={LoginForm} />
 
-          <Route exact path="/" element={<Home />} />
+          <ProtectedRoute exact path="/" component={Home} />
 
-          <Route path="/videos/:id" element={<VideoDetailView />} />
-          <Route path="/trending" element={<Trending />} />
-          <Route path="/gaming" element={<Gaming />} />
-          <Route path="/saved-videos" element={<SavedVideos />} />
-          <Route path="/not-found" element={<NotFound />} />
+          <ProtectedRoute path="/videos/:id" component={VideoDetailView} />
+          <ProtectedRoute path="/trending" component={Trending} />
+          <ProtectedRoute path="/gaming" component={Gaming} />
+          <ProtectedRoute path="/saved-videos" component={SavedVideos} />
+          <Route path="/not-found" component={NotFound} />
         </Switch>
       </ThemeAndVideoContext.Provider>
     )

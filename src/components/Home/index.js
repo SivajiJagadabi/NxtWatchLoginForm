@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import {ThreeDots} from 'react-loader-spinner'
+import Loader from 'react-loader-spinner'
 
 import {AiOutlineClose} from 'react-icons/ai'
 import {BiSearch} from 'react-icons/bi'
@@ -93,7 +93,7 @@ class Home extends Component {
 
   renderLoaderView = () => (
     <LoaderContainer>
-      <ThreeDots type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </LoaderContainer>
   )
 

@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import {Rings} from 'react-loader-spinner'
+import Loader from 'react-loader-spinner'
 import PlayVideoView from '../PlayVideoView'
 import Header from '../Header'
 import Sidebar from '../Sidebar'
@@ -104,7 +104,7 @@ class VideoDetailView extends Component {
 
   renderLoadingView = () => (
     <LoaderContainer>
-      <Rings type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </LoaderContainer>
   )
 

@@ -3,7 +3,7 @@ import {Component} from 'react'
 import {IoLogoGameControllerB} from 'react-icons/io'
 import Cookies from 'js-cookie'
 
-import {RotatingSquare, ThreeDots} from 'react-loader-spinner'
+import Loader from 'react-loader-spinner'
 import FailureView from '../FailureView'
 import Header from '../Header'
 import GameVideoCard from '../GameVideoCard'
@@ -77,7 +77,7 @@ class Gaming extends Component {
 
   renderLoadingView = () => (
     <LoaderContainer>
-      <ThreeDots type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </LoaderContainer>
   )
 

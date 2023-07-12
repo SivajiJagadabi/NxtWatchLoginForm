@@ -9,7 +9,7 @@ export const VideoDetailContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-left: 0px;
 
-    width: 90%;
+    width: 100%;
   }
 `
 

@@ -19,7 +19,7 @@ import {
   smallLogout,
 } from './styledComponents'
 
-const Header = props => (
+const Header = () => (
   <ThemeAndVideoContext.Consumer>
     {value => {
       const {isDarkTheme, toggleTheme} = value

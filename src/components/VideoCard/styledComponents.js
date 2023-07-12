@@ -8,6 +8,8 @@ export const TrendingListItem = styled.li`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
   }
 `
 
@@ -20,9 +22,7 @@ export const VideoDescription = styled.div`
 
 export const VideoThumbnail = styled.img`
   width: 310px;
-  height: 160px;
 `
-
 export const TrendingVideoList = styled.ul`
   list-style-type: none;
   display: flex;

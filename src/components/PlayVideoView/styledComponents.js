@@ -6,8 +6,8 @@ export const VideoPlayer = styled.div`
   width: 83%;
 
   @media screen and (max-width: 768px) {
-    width: 96%;
-    height: 100vh;
+    width: 100%;
+    min-height: 130vh;
   }
 `
 

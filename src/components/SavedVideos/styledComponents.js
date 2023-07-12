@@ -5,13 +5,15 @@ export const TrendingContainer = styled.div`
   flex-direction: column;
   width: 90%;
   min-height: 100vh;
+  overflow-y: scroll;
   margin-top: 20px;
   margin-left: 210px;
   margin-top: 78px;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
-
+    overflow-y: scroll;
     width: 100%;
+    min-height: 130vh;
   }
 `
 

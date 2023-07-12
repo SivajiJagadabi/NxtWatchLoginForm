@@ -2,7 +2,7 @@ import {Component} from 'react'
 
 import {HiFire} from 'react-icons/hi'
 import Cookies from 'js-cookie'
-import {ThreeDots} from 'react-loader-spinner'
+import Loader from 'react-loader-spinner'
 import VideoCard from '../VideoCard'
 import FailureView from '../FailureView'
 import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
@@ -69,7 +69,7 @@ class Trending extends Component {
 
   renderLoadingView = () => (
     <LoaderContainer>
-      <ThreeDots type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </LoaderContainer>
   )
 
