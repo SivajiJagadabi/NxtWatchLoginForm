@@ -6,13 +6,13 @@ export const FailureViewContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: none;
-  min-height:80vh;
-  max-height:100vh;
+  min-height: 80vh;
+  max-height: 100vh;
 `
 
 export const FailImage = styled.img`
   width: 200px;
-  margin-top:30px;
+  margin-top: 30px;
   @media screen and (min-width: 768px) {
     width: 350px;
   }

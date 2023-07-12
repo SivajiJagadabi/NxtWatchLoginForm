@@ -1,10 +1,10 @@
+import HomeVideoCard from '../HomeVideoCard'
+import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 import {
   VideosContainer,
   NoSavedVideoView,
   NoSaveImage,
 } from './styledComponents'
-import HomeVideoCard from '../HomeVideoCard'
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 
 const HomeVideos = props => {
   const {homeVideosList} = props
@@ -38,7 +38,7 @@ const HomeVideos = props => {
                   style={{
                     marginTop: 15,
                     marginBottom: 3,
-                    fontSize: 14,
+
                     color: `${textColor}`,
                     fontSize: 25,
                   }}
@@ -50,7 +50,7 @@ const HomeVideos = props => {
                   style={{
                     marginTop: 8,
                     marginBottom: 3,
-                    fontSize: 14,
+
                     color: 'gray',
                     fontSize: 18,
                   }}

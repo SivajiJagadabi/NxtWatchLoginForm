@@ -1,3 +1,6 @@
+import './index.css'
+import {Link} from 'react-router-dom'
+import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 import {
   VideosCards,
   VideoItem,
@@ -6,9 +9,6 @@ import {
   Description,
   TitleCard,
 } from './styledComponents'
-import './index.css'
-import {Link} from 'react-router-dom'
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 
 const HomeVideoCard = props => {
   const {video} = props

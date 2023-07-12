@@ -45,3 +45,12 @@ export const LoaderContainer = styled.div`
   align-items: center;
   justify-content: center;
 `
+
+export const TrendingVideoList = styled.ul`
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(247, 241, 241);
+`

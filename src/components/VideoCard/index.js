@@ -1,11 +1,12 @@
 import {Link} from 'react-router-dom'
+
+import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 import {
   TrendingListItem,
   VideoDescription,
   VideoThumbnail,
   TrendingVideoList,
 } from './styledComponents'
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 
 const VideoCard = props => {
   const {trendVideoDetails} = props
