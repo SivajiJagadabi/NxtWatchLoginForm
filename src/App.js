@@ -62,6 +62,7 @@ class App extends Component {
           <ProtectedRoute path="/gaming" component={Gaming} />
           <ProtectedRoute path="/saved-videos" component={SavedVideos} />
           <Route path="/not-found" component={NotFound} />
+          <Redirect to="not-found" />
         </Switch>
       </ThemeAndVideoContext.Provider>
     )

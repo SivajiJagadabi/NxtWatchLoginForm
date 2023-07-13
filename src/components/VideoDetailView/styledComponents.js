@@ -6,6 +6,7 @@ export const VideoDetailContainer = styled.div`
   width: 100%;
   margin-left: 210px;
   margin-top: 78px;
+  overflow-x: hidden;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
 

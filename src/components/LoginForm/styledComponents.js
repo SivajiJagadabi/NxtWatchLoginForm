@@ -5,6 +5,7 @@ export const AppContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 15px;
 `
 
 export const FormContainer = styled.form`
@@ -15,6 +16,9 @@ export const FormContainer = styled.form`
   padding: 64px 48px 64px 48px;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+    width: 370px;
+  }
 `
 
 export const LoginLogo = styled.img`

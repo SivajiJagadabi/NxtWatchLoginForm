@@ -101,7 +101,7 @@ const PlayVideoView = props => {
                       marginRight: 3,
                     }}
                   />
-                  <p style={{color: `${isLikedText}`}}>Like</p>
+                  <span style={{color: `${isLikedText}`}}>Like</span>
                 </button>
                 <button
                   style={{
@@ -122,7 +122,7 @@ const PlayVideoView = props => {
                       marginRight: 3,
                     }}
                   />
-                  <p style={{color: `${isDisLikedText}`}}> DisLike</p>
+                  <span style={{color: `${isDisLikedText}`}}> DisLike</span>
                 </button>
                 <button
                   style={{
@@ -144,7 +144,7 @@ const PlayVideoView = props => {
                       color: `${SaveTextColor}`,
                     }}
                   />
-                  <p style={{color: `${SaveTextColor}`}}>{saveText}</p>
+                  <span style={{color: `${SaveTextColor}`}}>{saveText}</span>
                 </button>
               </LikesButtons>
             </ViewLikeCard>

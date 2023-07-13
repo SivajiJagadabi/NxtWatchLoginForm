@@ -19,7 +19,7 @@ export const BannerContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 94%;
+  width: 100%;
   height: 200px;
   padding-left: 0px;
   background-size: cover;
@@ -85,7 +85,7 @@ export const SearchIconContainer = styled.div`
   font-size: 20px;
 
   width: 45px;
-  height: 30px;
+  height: 29px;
 `
 
 export const LoaderContainer = styled.div`
